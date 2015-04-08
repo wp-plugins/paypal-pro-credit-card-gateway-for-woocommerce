@@ -30,6 +30,10 @@ In the search field type "PayPal Pro Credit Card gateway for WooCommerce" and cl
 1. Unzip the files and upload the folder into your plugins folder (/wp-content/plugins/) overwriting previous versions if they exist
 2. Activate the plugin in your WordPress admin area.
 
+== Screenshots ==
+
+1. Setting up PayPal Advanced GateWay
+2. credit card form
 
 == Frequently Asked Questions ==
 = Where can I get support? =
