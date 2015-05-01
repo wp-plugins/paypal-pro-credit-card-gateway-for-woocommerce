@@ -2,7 +2,7 @@
 Contributors: johnwickjigo
 Tags: credit card, ecommerce, gateway, paypal, woocommerce, PayPAl Credit Card, PayPal Payment, PayPal Pro, PayPal Pro Credit Card, Card
 Requires at least: 3.0.1
-Tested up to: 4.1.1
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,6 +41,9 @@ In the search field type "PayPal Pro Credit Card gateway for WooCommerce" and cl
 
 
 == Changelog ==
+* 1.2.0      
+*       1/5/2015 ( 1.2.0 )
+*       Compatible with WordPress 4.2.1 version
 = 1.0.0 =
 *	Release Date - 5 April, 1015
 *  	First Version
