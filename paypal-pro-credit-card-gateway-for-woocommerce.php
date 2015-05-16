@@ -11,7 +11,7 @@
  * Author URI:        http://webs-spider.com/
  * License:           GNU General Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       paypal-donation-for-wordpress
+ * Text Domain:       paypal-pro-credit-card-gateway-for-woocommerce
  * Domain Path:       /languages
  */
 // If this file is called directly, abort.
