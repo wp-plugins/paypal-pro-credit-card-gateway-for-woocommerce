@@ -41,7 +41,9 @@ In the search field type "PayPal Pro Credit Card gateway for WooCommerce" and cl
 
 
 == Changelog ==
-* 1.2.0      
+* 1.2.1 =
+*       add icon
+* 1.2.0 =      
 *       1/5/2015 ( 1.2.0 )
 *       Compatible with WordPress 4.2.1 version
 = 1.0.0 =

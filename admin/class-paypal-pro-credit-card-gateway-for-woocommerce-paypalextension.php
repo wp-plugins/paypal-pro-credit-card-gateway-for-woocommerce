@@ -28,6 +28,7 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce_PayPalExtension extends WC_
         $this->id = 'PayPalPro';
         $this->method_title = 'PayPalPro';
         $this->has_fields = true;
+        $this->icon                 = apply_filters('woocommerce_paypal_pro_credit_card_icon', plugins_url( '/assets/images/cards.png', plugin_basename( dirname( __FILE__ ) ) ) );
         $this->acceptableCards = array(
             "Visa",
             "MasterCard",
