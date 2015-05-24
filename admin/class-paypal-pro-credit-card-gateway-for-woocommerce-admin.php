@@ -45,5 +45,10 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce_Admin {
             require_once plugin_dir_path(dirname(__FILE__)) . 'admin/class-paypal-pro-credit-card-gateway-for-woocommerce-paypalextension.php';
         }
     }
+    
+    public function paypal_pro_credit_card_for_woocommerce_standard_parameters() {
+        $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        return $paypal_args;
+    }
 
 }

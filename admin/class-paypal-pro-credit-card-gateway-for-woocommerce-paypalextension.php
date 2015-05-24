@@ -225,7 +225,9 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce_PayPalExtension extends WC_
                 sprintf("Paypal Credit Card payment completed with Transaction Id of '%s'", $this->transactionId)
         );
 
-        unset($_SESSION['order_awaiting_payment']);
+         if(isset($_SESSION) && !empty($_SESSION)) {
+            unset($_SESSION['order_awaiting_payment']);
+        }
     }
 
     /**

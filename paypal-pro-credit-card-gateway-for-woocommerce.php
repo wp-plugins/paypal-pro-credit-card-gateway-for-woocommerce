@@ -6,7 +6,7 @@
  * Plugin Name:       PayPal Pro Credit Card gateway for WooCommerce
  * Plugin URI:        http://webs-spider.com/
  * Description:       Provides a Credit Card Payment Gateway through Paypal Pro for WooCommerce.
- * Version:           1.2.1
+ * Version:           1.2.2
  * Author:            johnwickjigo
  * Author URI:        http://webs-spider.com/
  * License:           GNU General Public License v3.0

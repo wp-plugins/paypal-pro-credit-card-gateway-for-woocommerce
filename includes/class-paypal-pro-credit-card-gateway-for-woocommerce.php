@@ -49,7 +49,7 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce {
     public function __construct() {
 
         $this->plugin_name = 'paypal-pro-credit-card-gateway-for-woocommerce';
-        $this->version = '1.2.1';
+        $this->version = '1.2.2';
 
         $this->load_dependencies();
         $this->set_locale();
@@ -121,8 +121,7 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce {
     private function define_admin_hooks() {
 
         $plugin_admin = new PayPal_Pro_Credit_Card_Gateway_For_WooCommerce_Admin($this->get_plugin_name(), $this->get_version());
-
-
+        $this->loader->add_filter('woocommerce_paypal_args', $plugin_admin, 'paypal_pro_credit_card_for_woocommerce_standard_parameters', 99, 1);
         $this->loader->add_action('plugins_loaded', $plugin_admin, 'init_paypal_gateway_pro');
     }
 
