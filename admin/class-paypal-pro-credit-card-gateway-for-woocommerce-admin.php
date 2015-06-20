@@ -47,7 +47,11 @@ class PayPal_Pro_Credit_Card_Gateway_For_WooCommerce_Admin {
     }
     
     public function paypal_pro_credit_card_for_woocommerce_standard_parameters() {
-        $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        if( isset($paypal_args['BUTTONSOURCE']) ) {
+            $paypal_args['BUTTONSOURCE'] = 'mbjtechnolabs_SP';
+        } else {
+            $paypal_args['bn'] = 'mbjtechnolabs_SP';
+        }
         return $paypal_args;
     }
 
